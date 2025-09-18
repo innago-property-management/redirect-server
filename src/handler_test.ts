@@ -1,4 +1,4 @@
-import { expect } from "jsr:@std/expect";
+import { expect } from "@std/expect";
 import { makeHandler } from "./handler.ts";
 
 Deno.test("should redirect to url", async () => {
