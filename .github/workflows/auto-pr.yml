@@ -6,6 +6,10 @@ on:
     tags-ignore:
       - "*"
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   pull_request:
     if: github.ref != 'refs/heads/main'
